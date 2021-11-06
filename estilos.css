@@ -1,0 +1,285 @@
+
+body {
+    background-color: gold;
+    font-family: sans-serif;
+}
+a:hover{
+    color: red;
+    }
+ /* .conFondo:hover {
+    background-color: blue
+    } */
+img{
+    width: 60%;
+    height: 60%;
+    }   
+header{
+    background: white; 
+    padding-top: 10px;
+    padding-bottom: 2px;
+    position: fixed;
+    width: 100%;
+    z-index: 34242;
+    }   
+.botonera li {
+    animation-name: texto;
+    animation-duration: 3s;
+    display:inline-block;
+    justify-content: space-around;
+    margin left: 8px;
+    font-weight: 700;
+	font-size: 20px;
+    }
+.botonera li a{
+    color: gold;
+    text-decoration: none;  
+    }
+.botonera li a:hover{
+	color: black;
+	text-decoration: none;
+    }
+.conFondo{
+    background-color: gold;
+    }    
+.titulo {
+    text-align:center ;
+    font-size: 100px;
+    height: 40%;
+    width: 100%;
+    margin: 100px 10px 10px 10px;
+        }
+.tituloDos {
+    animation-name: texto;
+    margin-top: auto;
+    animation-duration: 4s;
+    text-transform: capitalize;
+    animation-name:1;
+    color:gold;
+    text-align:center;
+    font-size: 30px;
+    font-weight:1200; 
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
+    }
+.tituloMedio {
+    animation-name: texto;
+    margin-top: auto;
+    animation-duration: 4s;
+    animation-name:1;
+    color:gold;
+    text-align:center;
+    font-size: 30px;
+    font-weight:1200; 
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
+    }
+.tituloMedio2 {
+    text-align: center;
+    color: white;
+    }    
+.tituloTienda2 {
+    text-align:center;
+    padding: 60px;
+    color: gold;
+    height: 50px;
+    }
+.orange{
+    background: gold;
+    }
+    
+.nosotros{
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+    height: 40vh;
+    }
+.nosotros2{
+    background-color: gold;
+    text-align: center;
+    padding-top: 150px;
+    display: flex;
+    line-height: 40px;
+    }
+.dolar {
+    color: white;
+    background-color: rgb(4, 168, 59);
+    }
+/* ----------------Efectos-------*/          
+.trans {
+    transition: width 2s;
+    }
+.trans:hover {
+    width: 80%;
+    height: 70%;
+    }
+.trans2 {
+    transition: width 2s;
+    }
+.trans2:hover {
+    font-size: 30px;
+    color: gold;
+    }
+@keyframes texto {
+    from {
+    opacity: 0;
+    to 
+    opacity: 1
+    ;
+    }
+        }
+
+/* ----------------contenedores-------*/          
+.principal {
+    background-image:url(./imagen/fondo.jpg); 
+    background-repeat:no-repeat;
+    display: inline-block;
+    margin-block-end: auto;
+    height: 60vh;
+    background-size: cover;
+    }
+.centrado {
+    -ms-display: flex;
+    display: flex;
+     /* alineacion vertical */
+    align-items: center;
+    /* alineacion horizontal */
+    justify-content: center;
+    }
+.medio {
+    display: inline-block;
+    align-items: center;
+}
+.cta{
+        text-align: center;
+    }
+.logoF {
+    background-color: grey;
+}
+.logo2 {
+    background-image:url(./imagen/etherblack.jpg); 
+    background-repeat:no-repeat;
+    display: inline-block;
+    background-size: 100% ;
+    margin-block-end: auto;
+    }
+.loguito {
+    width: 40px;
+}    
+.fondoContacto {
+    background-image:url(./imagen/ethercontacto.jfif); 
+    background-repeat:no-repeat;
+    display: inline-block;
+    margin-block-end: auto;
+    height: 80vh;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    } 
+.video { 
+    margin-top: 200px;
+    width:100%;
+    } 
+.rig { 
+    color:black;
+    font-size: 25px;
+    font-style:italic ;
+    box-sizing: content-box;
+    display:inline-block;
+    padding: 20px;
+    } 
+.gpu {
+    color: black;
+    font-weight: bold;
+    font-size:24px ;
+    background-color: blueviolet;
+    }
+.carousel2 {
+    width: 100%;
+    height: 100%;
+    margin-left: 250px;
+    margin-bottom: 20px;
+
+}
+
+.colorContacto{
+        color: white;
+    }
+.contacto {
+    color: gold;
+    }
+.contactoFlex{
+    color: white;
+    width: 20%;
+    display:inline-block;
+    flex-flow:wrap;
+    justify-content: space-around;
+    }   
+.contactoFlex1{
+    color: white;
+    width: 20%;
+    display: flex;
+    flex-flow:wrap;
+    justify-content: space-around;
+        }   
+.ventaFerrari{
+    margin-left: 30px;
+    color:rgb(0, 67, 253);
+    text-align: left;
+    list-style-type: none;
+    list-style-image: url(./imagen/fuego.png)
+    }
+.ventas {
+    animation-name: texto;
+    animation-duration: 4s; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    }
+.ventas2 {
+    animation-name: texto;
+    animation-duration: 4s; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    }
+.ventas3 {
+    animation-name: texto;
+    animation-duration: 4s;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    }
+.especificacionesPor3 {
+    margin-left: 30px;
+    color:rgb(0, 67, 253);
+    list-style-type: none;
+    list-style-image: url(./imagen/fuego.png)
+    }
+.especificacionesPor4 {
+    margin-left: 30px;
+    color:rgb(0, 67, 253);
+    text-align: left;
+    list-style-type: none;
+    list-style-image: url(./imagen/fuego.png)    
+    }    
+/* .header {
+    color: #36A0FF;
+    font-size: 24px;
+    padding: 100px;
+    } */
+footer {
+    background-color: black;
+} 
+.espacios {
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+
+.blanquito {
+    color: white
+}
